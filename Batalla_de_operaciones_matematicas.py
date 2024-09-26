@@ -68,7 +68,7 @@ class BatallaMatematica:
         if self.indice_instruccion < len(self.instrucciones):
             # Mostrar una instrucción en la nube de diálogo
             self.label_instrucciones_dinamicas.config(text=self.instrucciones[self.indice_instruccion])
-            self.dibujar_nube()
+            #self.dibujar_nube()
             self.indice_instruccion += 1
             # Programar la siguiente instrucción en 3 segundos
             self.ventana.after(3000, self.actualizar_instrucciones)
