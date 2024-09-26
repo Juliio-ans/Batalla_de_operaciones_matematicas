@@ -12,7 +12,7 @@ class BatallaMatematica:
         # Variables del juego
         self.puntaje_jugador1 = 0
         self.puntaje_jugador2 = 0
-        self.tiempo_limite = 20  # Tiempo máximo por turno (en segundos)
+        self.tiempo_limite = 10  # Tiempo máximo por turno (en segundos)
         self.turno = 1  # 1 = Jugador 1, 2 = Jugador 2
         self.jugador1 = "Jugador 1"
         self.jugador2 = "Jugador 2"
@@ -44,7 +44,7 @@ class BatallaMatematica:
             "Reglas del juego:\n"
             "1. Este juego es para dos jugadores.\n"
             "2. Cada jugador debe resolver una operación matemática.\n"
-            "3. Tienes 20 segundos para responder, si no lo haces a tiempo, pierdes tu turno.\n"
+            "3. Tienes 10 segundos para responder, si no lo haces a tiempo, pierdes tu turno.\n"
             "4. Ganas 10 puntos por cada respuesta correcta.\n"
             "5. Al final, quien tenga más puntos será el ganador.\n"
             "¡Buena suerte!"
@@ -56,7 +56,7 @@ class BatallaMatematica:
         self.instrucciones = [
             "Este juego es para dos jugadores.",
             "Cada jugador debe resolver una operación matemática.",
-            "Tienes 20 segundos para responder.",
+            "Tienes 10 segundos para responder.",
             "Ganas 10 puntos por cada respuesta correcta.",
             "El que más puntos tenga al final, gana.",
             "¡Buena suerte!"
